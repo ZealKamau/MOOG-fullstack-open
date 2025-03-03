@@ -1,6 +1,7 @@
+```mermaid
 sequenceDiagram
-participant browser
-participant server
+    participant browser
+    participant server
 
     Note right of browser: User types a note and clicks "Save"
 
@@ -33,3 +34,4 @@ participant server
     deactivate server
 
     Note right of browser: The browser renders the updated list of notes, including the new note
+```
